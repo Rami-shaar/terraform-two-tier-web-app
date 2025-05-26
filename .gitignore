@@ -1,0 +1,12 @@
+# Ignore Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Ignore IDE settings
+.vscode/
+
+# Ignore crash logs and sensitive files
+crash.log
+terraform.tfvars
