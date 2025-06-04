@@ -37,7 +37,7 @@ two-tier-web-app/
 ├── main.tf
 ├── variables.tf
 ├── outputs.tf
-├── terraform.tfvars          # Not committed (contains secrets like AMI ID)
+├── terraform.tfvars          # Not committed (contains secrets)
 ├── .gitignore                # Ignores tfstate, tfvars, and .terraform files
 ├── modules/
 │   ├── VPC/
