@@ -1,8 +1,3 @@
-variable "bucket_name" {
-  description = "Name of the S3 bucket for Terraform remote backend"
-  type        = string
-}
-
 resource "aws_s3_bucket" "my_bucket" {
   bucket        = var.bucket_name
   force_destroy = true
