@@ -33,5 +33,5 @@ module "compute" {
 
 module "s3" {
   source      = "./modules/S3"
-  bucket_name = "my-terraform-bucket-rami2"
+  bucket_name = "my-terraform-state-bucket-rami2"
 }
