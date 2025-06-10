@@ -26,7 +26,7 @@ This project deploys a two-tier architecture on AWS using Terraform. It demonstr
 - Load-balanced traffic via ALB  
 - User-data bootstraps basic web content  
 - S3 bucket with versioning and 30-day expiration for non-current objects  
-- Remote backend support (S3)
+- Remote backend support (S3+DynamoDB)
 
 ---
 
