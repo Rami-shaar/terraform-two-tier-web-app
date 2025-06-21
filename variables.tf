@@ -33,3 +33,8 @@ variable "instance_type" {
   description = "Instance type for EC2s"
   default     = "t2.micro"
 }
+
+variable "bucket_name" {
+  type        = string
+  description = "The name of the S3 bucket to create (not the backend bucket!)"
+}
