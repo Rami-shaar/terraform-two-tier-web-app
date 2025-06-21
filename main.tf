@@ -30,8 +30,3 @@ module "compute" {
   ami_id              = var.ami_id
   instance_type       = var.instance_type
 }
-
-module "s3" {
-  source      = "./modules/S3"
-  bucket_name = "my-terraform-state-bucket-rami2"
-}
