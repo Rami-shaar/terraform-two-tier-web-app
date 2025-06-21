@@ -33,5 +33,5 @@ module "compute" {
 
 module "s3" {
   source      = "./modules/S3"
-  bucket_name = var.aws_s3_bucket.my_bucket.bucket
+  bucket_name = "my-app-assets-bucket"
 }
